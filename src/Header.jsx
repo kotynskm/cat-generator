@@ -24,7 +24,13 @@ const Header = () => {
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             Cat Generator
           </Typography>
-          <Button color="inherit">About The Developer</Button>
+          <Button
+            color="inherit"
+            target="_blank"
+            href="https://kotynskm.github.io/portfolio-website/"
+          >
+            About The Developer
+          </Button>
         </Toolbar>
       </AppBar>
     </Box>

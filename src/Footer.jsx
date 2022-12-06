@@ -18,9 +18,24 @@ const Footer = () => {
           setValue(newValue);
         }}
       >
-        <BottomNavigationAction label="GitHub" icon={<GitHubIcon />} />
-        <BottomNavigationAction label="LinkedIn" icon={<LinkedInIcon />} />
-        <BottomNavigationAction label="Email" icon={<EmailIcon />} />
+        <BottomNavigationAction
+          target="_blank"
+          href="https://github.com/kotynskm"
+          label="GitHub"
+          icon={<GitHubIcon />}
+        />
+        <BottomNavigationAction
+          target="_blank"
+          href="https://www.linkedin.com/in/kkotynski/"
+          label="LinkedIn"
+          icon={<LinkedInIcon />}
+        />
+        <BottomNavigationAction
+          target="_blank"
+          href="mailto:k.kotynski@gmail.com"
+          label="Email"
+          icon={<EmailIcon />}
+        />
       </BottomNavigation>
     </Box>
   );
