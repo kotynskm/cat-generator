@@ -7,4 +7,30 @@ body {
   background: url("./assets/alicja-gancarz-HoC9ttceIGo-unsplash.jpg") no-repeat
     center fixed;
   background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 200px;
+  align-items: center;
+}
+
+.image {
+  width: 500px;
+  height: 500px;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.button {
+  margin-bottom: 20px;
 }

@@ -6,7 +6,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import EmailIcon from "@mui/icons-material/Email";
 
-const SimpleBottomNavigation = () => {
+const Footer = () => {
   const [value, setValue] = React.useState(0);
 
   return (
@@ -26,4 +26,4 @@ const SimpleBottomNavigation = () => {
   );
 };
 
-export default SimpleBottomNavigation;
+export default Footer;

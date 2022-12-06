@@ -7,7 +7,7 @@ import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
 
-const ButtonAppBar = () => {
+const Header = () => {
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="fixed" style={{ background: "#EEC0C6" }}>
@@ -31,4 +31,4 @@ const ButtonAppBar = () => {
   );
 };
 
-export default ButtonAppBar;
+export default Header;
