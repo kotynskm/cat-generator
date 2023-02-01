@@ -6,7 +6,7 @@
 
 Cat Generator is a React app featuring an API request and Material UI. A user can click on the cat generator button to request a random image.
 
-Hosted via Netlify - https://gleeful-meerkat-136cf8.netlify.app/
+Hosted via Netlify - https://cat-generator-react.netlify.app
 
 ---
 
@@ -30,4 +30,4 @@ Dashboard page:
 **GitHub:** https://github.com/kotynskm
 **LinkedIn:** https://www.linkedin.com/in/kkotynski
 **Medium:** https://medium.com/@k.kotynski
-**Portfolio:** https://kotynskm.github.io/portfolio-website/
+**Portfolio:** https://kaileykotynski.netlify.app/
